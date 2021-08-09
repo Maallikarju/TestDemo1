@@ -7,11 +7,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>TestDemo1 Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-compiler-plugin</artifactId>
-  <version>3.8.1</version>
-</dependency>
   <build>
     <finalName>TestDemo</finalName>
        <plugins>
