@@ -4,5 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>voteServlet</servlet-name>
+  	<display-name>voteServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.voteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>voteServlet</servlet-name>
+  	<url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
 
