@@ -3,7 +3,9 @@
 <body>
 <h2>Hello World!</h2>
 <form action="index" method="post">
-<center><table style="background-color: yellow;"><tr><th>
+<center><table style="background-color: yellow;">
+  <tr><th>Verification of VOTING</th></tr>
+  <tr><th>
 <label>Name</label></th><td>
 <input type="text" name="name"></td></tr>
 <tr><th>
