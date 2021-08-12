@@ -28,13 +28,13 @@ public class voteServlet extends HttpServlet {
 			if (Age<=17) {
 				out.println("<html>"
 				+"<body><center>"
-				+"<h1 style=\"background-color: red; color:yellow;\">Hi "+Name+" <br>You are not Eligible for voteing</h1>"
+				+"<h1 style=\"background-color: red; color:yellow;\">Hi "+Name+" <br>You are not Eligible for voting</h1>"
 				+"</center></body>"
 				+"</html>");
 			} else {
 				out.println("<html>"
 						+"<body><center>"
-						+"<h1 style=\"background-color: green; color:yellow;\">Hi "+Name+" <br>You are Eligible for voteing</h1>"
+						+"<h1 style=\"background-color: green; color:yellow;\">Hi "+Name+" <br>You are Eligible for voting</h1>"
 						+"</center></body>"
 						+"</html>");
 			}
