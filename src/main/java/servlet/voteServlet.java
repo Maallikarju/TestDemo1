@@ -16,10 +16,10 @@ public class voteServlet extends HttpServlet {
 			HttpSession session=request.getSession();
 			PrintWriter out=response.getWriter();
 			String Name=request.getParameter("name");
-			int Age=Integer.parseInt(request.getParameter("age"));
+			int age=Integer.parseInt(request.getParameter("age"));
 			session.setAttribute("name",Name);
 			session.setAttribute("age", Age);
-			if (Age<=17)
+			if (age<=17)
 			{
 				out.println("<html>"
 				+"<body><center>"
@@ -33,8 +33,6 @@ public class voteServlet extends HttpServlet {
 						+"</center></body>"
 						+"</html>");
 			}
-			
-			
 		}
 
 	}
