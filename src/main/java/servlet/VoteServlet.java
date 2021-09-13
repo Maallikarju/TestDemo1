@@ -15,11 +15,11 @@ public class VoteServlet extends HttpServlet {
 			// TODO Auto-generated method stub
 			HttpSession session=request.getSession();
 			PrintWriter out=response.getWriter();
-			String name=request.getParameter("name");
-			int age=Integer.parseInt(request.getParameter("age"));
-			session.setAttribute("name",name);
-			session.setAttribute("age", age);
-			if (age<=17)
+			String Name=request.getParameter("name");
+			int Age=Integer.parseInt(request.getParameter("age"));
+			session.setAttribute("name",Name);
+			session.setAttribute("age", Age);
+			if (Age<=17)
 			{
 				out.println("<html>"
 				+"<body><center>"
