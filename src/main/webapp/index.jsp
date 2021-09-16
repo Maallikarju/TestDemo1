@@ -1,7 +1,7 @@
 <html>
 <title>Vote</title>
-<body>
-<h2>Hello Hcl I am mallikarjun</h2>
+<body><center>
+<h2>Welcome to voting</h2></center>
 <h2>Doing<h2>
 <form action="index" method="post">
 <center><table style="background-color: yellow;">
