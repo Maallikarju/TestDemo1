@@ -23,7 +23,7 @@ public class VoteServlet extends HttpServlet {
 			{
 				out.println("<html>"
 				+"<body><center>"
-				+"<h1 style=\"background-color: red; color:yellow;\">Hi "+Name+" <br>You are not Eligible for voting</h1>"
+				+"<h1 style=\"background-color: red; color:yellow;\">Hi "+Name+" <br>You are not Eligible for voting tell "+18-Age+" years</h1>"
 				+"</center></body>"
 				+"</html>");
 			} else {
