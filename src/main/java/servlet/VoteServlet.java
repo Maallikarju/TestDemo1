@@ -19,12 +19,12 @@ public class VoteServlet extends HttpServlet {
 			int Age=Integer.parseInt(request.getParameter("age"));
 			session.setAttribute("name",Name);
 			session.setAttribute("age", Age);.
-				int ok = 18-Age;
+			
 			if (Age<=17)
 			{
 				out.println("<html>"
 				+"<body><center>"
-				+"<h1 style=\"background-color: red; color:yellow;\">Hi "+Name+" <br>You are not Eligible for voting tell "+ok+" years</h1>"
+				+"<h1 style=\"background-color: red; color:yellow;\">Hi "+Name+" <br>You are not Eligible for voting tell years</h1>"
 				+"</center></body>"
 				+"</html>");
 			} else {
